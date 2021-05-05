@@ -1,0 +1,72 @@
+html{
+    font-family:'Nunito', sans-serif ;
+}
+body{
+    
+    color: aliceblue;
+    text-align: center;
+    background-image: linear-gradient(to left, #000000, #434343);
+}
+
+.todo-input > input{
+    width: 50%;
+    padding: 20px;
+    
+    font-size: 20px;
+}
+label{
+    font-weight: 600;
+}
+
+.todo-item > button{
+    display: inline;
+    border-radius: 5px;
+    border: 0;
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: right;
+
+}
+.todo-item{
+    height: auto;
+    margin-top: 10px;
+    position: relative;
+    padding: 10px 0;
+    background-color: midnightblue;
+    left: 50%;
+    transform: translate(-50%);
+    width: 60%;
+    border-radius: 50px;
+}
+.todo-item > p{
+    font-size: large;
+    padding: 0 10px;
+    display: inline;
+
+    
+}
+.trash{
+
+    background-image:url('icons/delete.svg');
+    
+}
+.undone{
+    background-image: url('icons/not-done.svg');
+   
+}
+.edit{
+    background-image: url('icons/edit.svg');
+    
+    
+}
+.done{
+    background-image: url('icons/done.svg');
+}
+
+.edit-input{
+    display: block;
+    width: 100%;
+}
