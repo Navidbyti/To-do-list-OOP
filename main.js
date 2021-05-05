@@ -1,3 +1,17 @@
+//Fonts are added via JS cus I CBA
+const link1 = document.createElement('link');
+const link2 = document.createElement('link');
+link1.setAttribute('rel' , 'preconnect');
+link1.setAttribute('href' , `https://fonts.gstatic.com`)
+link2.setAttribute('rel' , 'stylesheet');
+link2.setAttribute('type' , 'text/css');
+link2.setAttribute('href' , `https://fonts.googleapis.com/css2?family=Nunito:wght@200;800&display=swap`)
+html.appendChild(link1);
+html.appendChild(link2);
+
+
+
+
 const listOutputDiv = document.querySelector('.list-output');
 
 function TaskCreator(text){
